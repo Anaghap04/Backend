@@ -17,7 +17,7 @@ app.use('/api',api);
 
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname +
-    '/dist/index.html')) });
+    '/dist/todoapp/index.html')) });
     
 app.listen(PORT,()=>{                                                         
     console.log(`Server is running on ${PORT}`);                             
